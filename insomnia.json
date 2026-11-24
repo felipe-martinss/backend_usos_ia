@@ -1,0 +1,234 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2026-11-24T12:06:08.223Z",
+  "__export_source": "Otimizador StatTrak v1.1",
+  "resources": [
+    {
+      "_id": "wrk_usos_ia",
+      "parentId": null,
+      "modified": 1795521968223,
+      "created": 1795521968223,
+      "name": "API usos_ia - StatTrak",
+      "description": "Coleção gerada automaticamente",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "fld_usos_ia_usuario",
+      "parentId": "wrk_usos_ia",
+      "modified": 1795521968223,
+      "created": 1795521968223,
+      "name": "USUARIO",
+      "description": "Rotas CRUD para a tabela usuario",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -2000,
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_usuario_listar",
+      "parentId": "fld_usos_ia_usuario",
+      "modified": 1795521968223,
+      "created": 1795521968223,
+      "url": "http://localhost:3000/usuario",
+      "name": "Listar usuario",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -5,
+      "_type": "request"
+    },
+    {
+      "_id": "req_usuario_buscar",
+      "parentId": "fld_usos_ia_usuario",
+      "modified": 1795521968223,
+      "created": 1795521968223,
+      "url": "http://localhost:3000/usuario/1",
+      "name": "Buscar usuario por id",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -4,
+      "_type": "request"
+    },
+    {
+      "_id": "req_usuario_criar",
+      "parentId": "fld_usos_ia_usuario",
+      "modified": 1795521968223,
+      "created": 1795521968223,
+      "url": "http://localhost:3000/usuario",
+      "name": "Criar usuario",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"nome\": \"exemplo\",\n  \"email\": \"exemplo@email.com\",\n  \"senha\": \"senha123\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -3,
+      "_type": "request"
+    },
+    {
+      "_id": "req_usuario_atualizar",
+      "parentId": "fld_usos_ia_usuario",
+      "modified": 1795521968223,
+      "created": 1795521968223,
+      "url": "http://localhost:3000/usuario/1",
+      "name": "Atualizar usuario",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"nome\": \"exemplo\",\n  \"email\": \"exemplo@email.com\",\n  \"senha\": \"senha123\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -2,
+      "_type": "request"
+    },
+    {
+      "_id": "req_usuario_deletar",
+      "parentId": "fld_usos_ia_usuario",
+      "modified": 1795521968223,
+      "created": 1795521968223,
+      "url": "http://localhost:3000/usuario/1",
+      "name": "Deletar usuario",
+      "description": "",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1,
+      "_type": "request"
+    },
+    {
+      "_id": "fld_usos_ia_usoia",
+      "parentId": "wrk_usos_ia",
+      "modified": 1795521968223,
+      "created": 1795521968223,
+      "name": "USOIA",
+      "description": "Rotas CRUD para a tabela usoia",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1000,
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_usoia_listar",
+      "parentId": "fld_usos_ia_usoia",
+      "modified": 1795521968223,
+      "created": 1795521968223,
+      "url": "http://localhost:3000/usoia",
+      "name": "Listar usoia",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -5,
+      "_type": "request"
+    },
+    {
+      "_id": "req_usoia_buscar",
+      "parentId": "fld_usos_ia_usoia",
+      "modified": 1795521968223,
+      "created": 1795521968223,
+      "url": "http://localhost:3000/usoia/1",
+      "name": "Buscar usoia por id",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -4,
+      "_type": "request"
+    },
+    {
+      "_id": "req_usoia_criar",
+      "parentId": "fld_usos_ia_usoia",
+      "modified": 1795521968223,
+      "created": 1795521968223,
+      "url": "http://localhost:3000/usoia",
+      "name": "Criar usoia",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"usuarioId\": 1,\n  \"sistema\": \"exemplo\",\n  \"tipo\": \"Empresa\",\n  \"finalidade\": \"exemplo\",\n  \"tecnologia\": \"exemplo\",\n  \"nivelRisco\": \"Baixo\",\n  \"revisaoHumana\": 1\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -3,
+      "_type": "request"
+    },
+    {
+      "_id": "req_usoia_atualizar",
+      "parentId": "fld_usos_ia_usoia",
+      "modified": 1795521968223,
+      "created": 1795521968223,
+      "url": "http://localhost:3000/usoia/1",
+      "name": "Atualizar usoia",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"usuarioId\": 1,\n  \"sistema\": \"exemplo\",\n  \"tipo\": \"Empresa\",\n  \"finalidade\": \"exemplo\",\n  \"tecnologia\": \"exemplo\",\n  \"nivelRisco\": \"Baixo\",\n  \"revisaoHumana\": 1\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -2,
+      "_type": "request"
+    },
+    {
+      "_id": "req_usoia_deletar",
+      "parentId": "fld_usos_ia_usoia",
+      "modified": 1795521968223,
+      "created": 1795521968223,
+      "url": "http://localhost:3000/usoia/1",
+      "name": "Deletar usoia",
+      "description": "",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1,
+      "_type": "request"
+    }
+  ]
+}
