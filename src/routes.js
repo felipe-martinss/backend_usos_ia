@@ -10,11 +10,12 @@ router.put('/usuario/:id', usuarioController.atualizar);
 router.delete('/usuario/:id', usuarioController.deletar);
 
 const usoiaController = require('./controllers/usoia');
+router.get('/usoia/resumo', usoiaController.resumo);
 router.get('/usoia', usoiaController.listar);
 router.get('/usoia/:id', usoiaController.buscarPorId);
 router.post('/usoia', usoiaController.criar);
 router.put('/usoia/:id', usoiaController.atualizar);
 router.delete('/usoia/:id', usoiaController.deletar);
-router.delete('/usoia/resumo', usoiaController.resumo);
+
 
 module.exports = router;
