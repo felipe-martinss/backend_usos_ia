@@ -8,7 +8,12 @@ O sistema permite realizar o cadastro de usuários, registrar informações, con
 ---
 
 ## Diagrama de Classes
-
+<p align="left">
+  <img src="./docs/der_uso_ia.png" alt="Der">
+</p>
+<p align="left">
+  <img src="./docs/diagrama.png" alt="Diagrama de Classes">
+</p>
 
 ---
 
