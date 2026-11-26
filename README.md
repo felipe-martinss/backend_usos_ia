@@ -66,3 +66,65 @@ Utilizar o Insomnia para realizar requisições HTTP e testar as funcionalidades
 
 
 ## Testes do Insomnia
+
+## Testes usuarios
+### Login usuario
+<p align="left">
+  <img src="./docs/login.png" alt="Login usuario">
+</p>
+
+### Listar usuario
+<p align="left">
+  <img src="./docs/listar_usuario.png" alt="Listar usuario">
+</p>
+
+### Buscar usuario
+<p align="left">
+  <img src="./docs/buscar_usuario.png" alt="Buscar usuario">
+</p>
+
+### Cadastrar usuario
+<p align="left">
+  <img src="./docs/cadastrar_usuario.png" alt="Cadastrar usuario">
+</p>
+
+### Deletar usuario
+<p align="left">
+  <img src="./docs/deletar_usuario.png" alt="Deletar usuario">
+</p>
+
+### Atualizar usuario
+<p align="left">
+  <img src="./docs/atualizar_usuario.png" alt="Atualizar usuario">
+</p>
+
+## Testes usos IA
+### Listar usos IA
+<p align="left">
+  <img src="./docs/usoia_listar.png" alt="Listar usos IA">
+</p>
+
+### Buscar usos IA
+<p align="left">
+  <img src="./docs/usoia_buscar.png" alt="Buscar usos IA">
+</p>
+
+### Postar usos IA
+<p align="left">
+  <img src="./docs/usoia_postar.png" alt="Postar usos IA">
+</p>
+
+### Deletar usos IA
+<p align="left">
+  <img src="./docs/usoia_deletar.png" alt="Deletar usos IA">
+</p>
+
+### Atualizar usos IA
+<p align="left">
+  <img src="./docs/usoia_atualizar.png" alt="Atualizar usos IA">
+</p>
+
+### Resumo usos IA
+<p align="left">
+  <img src="./docs/resumo_usoia.png" alt="Resumo usos IA">
+</p>
